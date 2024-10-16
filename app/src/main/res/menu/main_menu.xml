@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/europe"
+        android:title="Европа">
+        <menu>
+            <item android:id="@+id/france"
+                android:title="Франция" >
+                <menu>
+                    <item android:id="@+id/eiffelTower"
+                        android:title="Эйфелева башня" />
+                    <item android:id="@+id/champselysees"
+                        android:title="Елисейские поля" />
+                    <item android:id="@+id/louvre"
+                        android:title="Лувр" />
+                </menu>
+            </item>
+            <item android:id="@+id/spain"
+                android:title="Испания" >
+                <menu>
+                    <item android:id="@+id/сolosseo"
+                        android:title="Колизей" />
+                    <item android:id="@+id/towerofpisa"
+                        android:title="Пизанская башня" />
+                    <item android:id="@+id/vesuvius"
+                        android:title="Везувий" />
+                </menu>
+            </item>
+            <item android:id="@+id/germany"
+                android:title="Германия" >
+                <menu>
+                    <item android:id="@+id/neuschwanstein"
+                        android:title="Замок Нойшванштайн" />
+                    <item android:id="@+id/colognecathedral"
+                        android:title="Кёльнский собор" />
+                    <item android:id="@+id/reichstag"
+                        android:title="Рейхстаг" />
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/asia"
+        android:title="Азия">
+        <menu>
+            <item android:id="@+id/japan"
+                android:title="Япония" >
+                <menu>
+                    <item android:id="@+id/himejicastle"
+                        android:title="Замок Белой Цапли" />
+                    <item android:id="@+id/mountfuji"
+                        android:title="Фудзияма" />
+                    <item android:id="@+id/tokyoskytree"
+                        android:title="Tokyo sky tree" />
+                </menu>
+            </item>
+            <item android:id="@+id/tai"
+                android:title="Таиланд" >
+                <menu>
+                    <item android:id="@+id/sanctuaryoftruth"
+                        android:title="Храм Истины" />
+                    <item android:id="@+id/phangngabay"
+                        android:title="залив Пхангнга" />
+                    <item android:id="@+id/bigbuddhaphuket"
+                        android:title="Большой Будда Пхукета" />
+                </menu>
+            </item>
+            <item android:id="@+id/india"
+                android:title="Индия" >
+                <menu>
+                    <item android:id="@+id/lotustemple"
+                        android:title="Храм Лотоса" />
+                    <item android:id="@+id/tajmahal"
+                        android:title="Тадж-Махал" />
+                    <item android:id="@+id/agrafort"
+                        android:title="Агра-форт" />
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/america"
+        android:title="Америка">
+        <menu>
+            <item android:id="@+id/usa"
+                android:title="США" >
+                <menu>
+                    <item android:id="@+id/statueofliberty"
+                        android:title="Статуя Свободы" />
+                    <item android:id="@+id/goldengatebridge"
+                        android:title="Золотые Ворота" />
+                    <item android:id="@+id/alcatraz"
+                        android:title="Алькатрас" />
+                </menu>
+            </item>
+            <item android:id="@+id/brazil"
+                android:title="Бразилия" >
+                <menu>
+                    <item android:id="@+id/christtheredeemer"
+                        android:title="Статуя Христа-Искупителя" />
+                    <item android:id="@+id/pantanal"
+                        android:title="Пантанал" />
+                    <item android:id="@+id/copacabana"
+                        android:title="Копакабана" />
+                </menu>
+            </item>
+            <item android:id="@+id/canada"
+                android:title="Канада" >
+                <menu>
+                    <item android:id="@+id/parliamenthill"
+                        android:title="Парламентский холм" />
+                    <item android:id="@+id/niagarafalls"
+                        android:title="Ниагарский водопад" />
+                    <item android:id="@+id/montrealbotanicalgarden"
+                        android:title="Монреальский ботанический сад" />
+                </menu>
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
